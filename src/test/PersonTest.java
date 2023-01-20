@@ -25,4 +25,13 @@ public class PersonTest {
         Person person4 = new Person();
         assertEquals(4, Person.numberOfPersons());
     }
+
+    @Test
+    public void demonstrateBoolean(){
+        boolean monday = false;
+        boolean raining = true;
+        if(monday && raining){
+            drinkBeer();
+        }
+    }
 }
