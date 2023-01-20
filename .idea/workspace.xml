@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1deb3955-23e7-4337-b151-ff0efbd7514b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_tutorial_8h.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="1deb3955-23e7-4337-b151-ff0efbd7514b" name="Changes" comment="lesson_3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/PersonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +50,29 @@
       <recent name="test" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="PersonTest.souldreturnNumberOfPersons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_tutorial_8h" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PersonTest" />
+      <option name="METHOD_NAME" value="souldreturnNumberOfPersons" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PersonTest.souldreturnNumberOfPersons" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +82,21 @@
       <option name="presentableId" value="Default" />
       <updated>1674129169819</updated>
     </task>
+    <task id="LOCAL-00001" summary="lesson_3">
+      <created>1674213080399</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674213080399</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lesson_3">
+      <created>1674213181949</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674213181949</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,5 +109,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_3" />
   </component>
 </project>

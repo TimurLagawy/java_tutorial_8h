@@ -20,8 +20,9 @@ public class PersonTest {
     @Test
             public void souldreturnNumberOfPersons(){
         Person person1 = new Person();
-        Person myPerson = new Person();
-
-        assertEquals(2, myPerson.numberOfPersons());
+        Person Person2 = new Person();
+        Person person3 = new Person();
+        Person person4 = new Person();
+        assertEquals(4, Person.numberOfPersons());
     }
 }

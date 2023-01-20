@@ -2,7 +2,7 @@ package test;
 
 public class Person {
     private Name personName;
-    private int personCounter = 1;
+    private static int personCounter;
     public Person(Name personName){
         this.personName = personName;
     }
@@ -24,7 +24,7 @@ public class Person {
         return "Hello " + name;
     }
 
-    public int numberOfPersons() {
+    public static int numberOfPersons() {
         return personCounter;
     }
 }
