@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1deb3955-23e7-4337-b151-ff0efbd7514b" name="Changes" comment="lesson_3.1">
+    <list default="true" id="1deb3955-23e7-4337-b151-ff0efbd7514b" name="Changes" comment="lesson_7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/PersonTest.java" afterDir="false" />
     </list>
@@ -34,22 +34,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PersonTest.shouldReturnOfPersonsInLoop">
+    <configuration name="PersonTest.demonstrateBoolean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_tutorial_8h" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PersonTest" />
+      <option name="METHOD_NAME" value="demonstrateBoolean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.shouldReturnOfPersonsInLoop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_tutorial_8h" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PersonTest" />
+      <option name="METHOD_NAME" value="shouldReturnOfPersonsInLoop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersonTest.souldreturnNumberOfPersons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_tutorial_8h" />
       <extension name="coverage">
@@ -68,6 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonTest.shouldReturnOfPersonsInLoop" />
+        <item itemvalue="JUnit.PersonTest.demonstrateBoolean" />
         <item itemvalue="JUnit.PersonTest.souldreturnNumberOfPersons" />
       </list>
     </recent_temporary>
@@ -102,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674242090332</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lesson_7">
+      <created>1674243712723</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674243712723</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson_3" />
     <MESSAGE value="lesson_3.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson_3.1" />
+    <MESSAGE value="lesson_7" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_7" />
   </component>
 </project>
