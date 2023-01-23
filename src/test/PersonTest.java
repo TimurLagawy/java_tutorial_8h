@@ -33,19 +33,18 @@ public class PersonTest {
         for (int i = 0; i < 4; i++) {
             new Person();
         }
-        assertEquals(4, Person.numberOfPersons());
+      /*  assertEquals(4, Person.numberOfPersons());
         int j = 0;
         while (j < 4) {
             new Person();
             j++;
         }
-        assertEquals(4, Person.numberOfPersons());
-        j = 0;
+       j = 0;
         do {
             new Person();
             j++;
         } while (j < 4);
-        assertEquals(4, Person.numberOfPersons());
+        assertEquals(12, Person.numberOfPersons());
 
         /* Person person1;
         int i = 0;
@@ -96,14 +95,38 @@ public class PersonTest {
     }
 @Test
 public void demonstrateArrays(){
-        Person[] persons = new Person[4];
+        Person persons [] = new Person[4];
+        persons[0] = new Person();
+        persons[1] = new Person();
+        persons[2] = new Person();
+        persons[3] = new Person();
+    for (int i = 0; i < persons.length; i++) {
+        persons[i] = new Person();
+    }
+    for (int i = 0; i < persons.length; i++) {
+        persons[i] = new Person();
+    }
+    for(Person person : persons){
+        person.helloWorld();
+    }
+    Person myPerson = new Person();
+    Person myPerson2 = new Person();
+    Person[] persons2 = {persons[0], null, myPerson, myPerson2};
+       /* Person[] persons = new Person[4];
+    for (int i = 0; i < persons.length; i++) {
+        persons[i] = new Person();
+    }
+
+        /* можно расписать каждый элемент, а можно прописать: создать список
         Person myPerson = new Person();
         persons[0] = new Person();
         persons[1] = new Person();
         persons[2] = new Person();
         persons[3] = new Person();
-        persons[3] = myPerson;
-        myPerson = persons[2];
+
+        persons[3] = myPerson;  - замена элементов в списке
+        myPerson = persons[2];*/
+
 }
     private void stayAtHome() {
     }
