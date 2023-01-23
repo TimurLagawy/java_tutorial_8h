@@ -30,13 +30,35 @@ public class PersonTest {
 
     @Test
     public void shouldReturnOfPersonsInLoop() {
-        Person person1;
+        for (int i = 0; i < 4; i++) {
+            new Person();
+        }
+        assertEquals(4, Person.numberOfPersons());
+        int j = 0;
+        while (j < 4) {
+            new Person();
+            j++;
+        }
+        assertEquals(4, Person.numberOfPersons());
+        j = 0;
+        do {
+            new Person();
+            j++;
+        } while (j < 4);
+        assertEquals(4, Person.numberOfPersons());
+
+        /* Person person1;
         int i = 0;
+        do {
+            person1 = new Person();
+            i++;
+        }while (i<4);
+            assertEquals(4, Person.numberOfPersons());
 
         while(i < 4){
             person1 = new Person();
             i++;
-        }
+        }*/
         /*for (int i = 0; i < 4; i ++) {
             person1 = new Person();
         }*/
@@ -72,7 +94,17 @@ public class PersonTest {
             j--;
         }
     }
-
+@Test
+public void demonstrateArrays(){
+        Person[] persons = new Person[4];
+        Person myPerson = new Person();
+        persons[0] = new Person();
+        persons[1] = new Person();
+        persons[2] = new Person();
+        persons[3] = new Person();
+        persons[3] = myPerson;
+        myPerson = persons[2];
+}
     private void stayAtHome() {
     }
 
